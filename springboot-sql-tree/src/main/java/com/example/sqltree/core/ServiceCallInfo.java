@@ -1,4 +1,4 @@
-package com.example.sqltree;
+package com.example.sqltree.core;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

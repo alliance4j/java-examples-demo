@@ -1,4 +1,4 @@
-package com.example.sqltree;
+package com.example.sqltree.core;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;

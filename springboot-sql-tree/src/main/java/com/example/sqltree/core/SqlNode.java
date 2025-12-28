@@ -1,4 +1,4 @@
-package com.example.sqltree;
+package com.example.sqltree.core;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;

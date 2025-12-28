@@ -13,14 +13,14 @@ spring:
     url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
     username: sa
-    password: 
+    password:
+    schema-locations: classpath:schema.sql
+    data-locations: classpath:data.sql
   
   # SQL初始化配置
   sql:
     init:
       mode: always
-      schema-locations: classpath:schema.sql
-      data-locations: classpath:data.sql
       continue-on-error: false
     
   # H2控制台配置
@@ -36,7 +36,7 @@ mybatis:
   # 映射文件位置
   mapper-locations: classpath:mapper/*.xml
   # 类型别名包
-  type-aliases-package: com.example.sqltree
+  type-aliases-package: com.example.sqltree.entity
   # 配置
   configuration:
     # 开启驼峰命名转换

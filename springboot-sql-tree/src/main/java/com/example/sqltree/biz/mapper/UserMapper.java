@@ -1,4 +1,4 @@
-package com.example.sqltree;
+package com.example.sqltree.biz.mapper;
 
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
@@ -197,7 +197,7 @@ public interface UserMapper {
         @Result(property = "email", column = "email"),
         @Result(property = "orders", column = "id", 
                 javaType = List.class,
-                many = @Many(select = "com.example.sqltree.OrderMapper.findByUserId"))
+                many = @Many(select = "com.example.sqltree.biz.mapper.OrderMapper.findByUserId"))
     })
     Map<String, Object> getUserWithNestedOrders(@Param("userId") Long userId);
 }

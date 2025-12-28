@@ -1,4 +1,4 @@
-package com.example.sqltree;
+package com.example.sqltree.biz.mapper;
 
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;

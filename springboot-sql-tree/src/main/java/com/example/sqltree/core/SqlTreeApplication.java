@@ -1,4 +1,4 @@
-package com.example.sqltree;
+package com.example.sqltree.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,5 +1,7 @@
-package com.example.sqltree;
+package com.example.sqltree.biz.controller;
 
+import com.example.sqltree.biz.service.OrderService;
+import com.example.sqltree.biz.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
