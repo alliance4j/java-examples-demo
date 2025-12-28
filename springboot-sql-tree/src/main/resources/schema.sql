@@ -1,5 +1,7 @@
 -- SQL调用树可视化系统数据库表结构
 -- 创建示例表用于测试SQL调用树功能
+CREATE DATABASE IF NOT EXISTS sql_tree CHARACTER SET utf8mb4;
+USE sql_tree;
 
 -- 用户表
 CREATE TABLE IF NOT EXISTS users (

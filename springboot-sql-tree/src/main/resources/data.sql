@@ -1,5 +1,6 @@
 -- SQL调用树可视化系统示例数据
 -- 插入测试数据用于演示SQL调用树功能
+USE sql_tree;
 
 -- 插入示例用户数据
 INSERT INTO users (username, email, password) VALUES
